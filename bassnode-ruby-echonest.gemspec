@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {spec}/*`.split("\n")
 
 
-  s.add_dependency(%q<libxml-ruby>, [">= 0"])
+  s.add_dependency(%q<libxml-jruby>, [">= 0"])
   s.add_dependency(%q<httpclient>, [">= 0"])
   s.add_dependency(%q<hashie>, [">= 0"])
   s.add_development_dependency('rspec')
